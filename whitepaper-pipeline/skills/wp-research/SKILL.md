@@ -112,10 +112,21 @@ Capture:
 - Title and date of most recent paper → Column G
 - Resources page URL if findable → Column H
 
-GEOGRAPHY
-From the identity and size searches already run, identify HQ location.
-Write country and city if known → Column C.
-Do not run an extra search for geography — use what the previous searches returned.
+GEOGRAPHY(hard gate, no exceptions)
+Determine the company's HQ country from the identity search.
+
+ACCEPT ONLY these countries:
+United States, Canada, Israel, Singapore, Australia
+
+REJECT everything else immediately. This includes but is not limited to:
+UK, Ireland, Germany, France, Belgium, Netherlands, Sweden, Denmark,
+Switzerland, Spain, Italy, Jordan, UAE, India, South Africa, and all
+other countries not on the accept list.
+
+If HQ country is not on the accept list, write "REJECTED — geography (country)"
+to the Staging Gate Result column and move to the next company.
+Do not research further. Do not write to the Master tab.
+No "borderline" — if it is not one of the five accept countries, it is out.
 
 INDUSTRY
 From searches already run, identify the company's primary industry.
@@ -158,21 +169,42 @@ WRITE THIS ROW NOW
 Write immediately after data collection is complete.
 Do not queue. Do not wait. Write one company, then move to the next.
 
-Write to the next empty row in the Master tab:
-1. Click Name Box, type next empty row cell A address, press Enter
-2. Tab through columns A to R in order
-3. Columns N, O, P: write PENDING for all three
-4. Column R: write "Angle needed"
-5. Press Enter to commit
+Do NOT use the Tab key to move between columns. Tab does not work reliably
+here and causes all data to pile into a single cell (column A). Instead,
+write each field to its EXACT cell address using the Name Box, one cell
+at a time.
 
-Then immediately go back to the Staging tab and write to that company's Column D:
+For a company going into the next empty row N of the Master tab:
+- Name Box → type A{N} → Enter → type Company Name → Enter
+- Name Box → type B{N} → Enter → type Website URL → Enter
+- Name Box → type C{N} → Enter → type Geography → Enter
+- Name Box → type D{N} → Enter → type Employee Size (clean number only) → Enter
+- Name Box → type E{N} → Enter → type Industry → Enter
+- Name Box → type F{N} → Enter → type White Paper Count → Enter
+- Name Box → type G{N} → Enter → type Most Recent White Paper → Enter
+- Name Box → type H{N} → Enter → type Resources Page URL → Enter
+- Name Box → type I{N} → Enter → type Hiring → Enter
+- Name Box → type J{N} → Enter → type Recent News → Enter
+- Name Box → type K{N} → Enter → type Decision Maker Name → Enter
+- Name Box → type L{N} → Enter → type Decision Maker Title → Enter
+- Name Box → type M{N} → Enter → type Person LinkedIn URL → Enter
+- Name Box → type N{N} → Enter → type PENDING → Enter
+- Name Box → type O{N} → Enter → type PENDING → Enter
+- Name Box → type P{N} → Enter → type PENDING → Enter
+- Name Box → type Q{N} → Enter → type Notes → Enter
+- Name Box → type R{N} → Enter → type Angle needed → Enter
+
+Always one cell at a time via the Name Box. Never use Tab.
+After writing, click cell B{N} and confirm it shows the URL, not empty.
+If B{N} is empty, the write failed — retry that row.
+
+Then go to the Staging tab and write that company's Gate Result (Column D):
 - "PASSED" if written to Master
 - "REJECTED — [reason]" if failed
 
-DEDUPLICATION: Before writing to Master, scan Column A of Master for existing match.
-If already present — skip the write, mark Staging Column D as "DUPLICATE — skipped".
-
-Screenshot every 5th row written to confirm columns are correct.
+DEDUPLICATION: Before writing to Master, scan Column A of Master for an
+existing match. If already present, skip the write and mark the Staging
+Gate Result as "DUPLICATE — skipped".
 
 ================================================
 EVIDENCE RULE
