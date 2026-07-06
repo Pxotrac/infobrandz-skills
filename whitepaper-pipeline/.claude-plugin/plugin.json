@@ -1,0 +1,8 @@
+{
+  "name": "whitepaper-pipeline",
+  "version": "0.1.0",
+  "description": "Three-phase whitepaper prospect discovery pipeline. Harvests company names, researches and qualifies them against ICP, and generates outreach angles via Claude API. Designed to chain via n8n.",
+  "author": {
+    "name": "InfoBrandz"
+  }
+}
