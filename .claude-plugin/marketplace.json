@@ -1,15 +1,13 @@
 {
-  "name": "InfoBrandz Skills",
-  "description": "InfoBrandz GTM automation skills",
+  "name": "infobrandz-skills",
+  "owner": {
+    "name": "InfoBrandz"
+  },
   "plugins": [
     {
       "name": "whitepaper-pipeline",
-      "description": "Three-phase whitepaper prospect discovery pipeline. Harvests companies, researches and qualifies them, generates outreach angles via Claude API.",
-      "source": {
-        "source": "git-subdir",
-        "repo": "Pxotrac/infobrandz-skills",
-        "subdir": "whitepaper-pipeline"
-      }
+      "source": "./whitepaper-pipeline",
+      "description": "InfoBrandz GTM automation skills for whitepaper lead discovery and outreach."
     }
   ]
 }
