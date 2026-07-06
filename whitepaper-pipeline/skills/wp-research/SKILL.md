@@ -13,7 +13,7 @@ Stop after 15 companies are written to the Master tab.
 When done, write "RESEARCH COMPLETE" to cell B1 of the Staging tab to trigger n8n.
 
 ## SHEETS
-URL: https://docs.google.com/spreadsheets/d/12SapJRIxDn0HKhZyWWSO3qZgmwZvGiWHmQ7nsy2jpb8/
+URL: https://docs.google.com/spreadsheets/d/1vyQMI4k_rS3zT5nq29hfIHNu6LDN1eNoW9bPzMfBNrI/
 
 SOURCE tab: Staging (second tab)
 Read from Column A (Company Name) and Column B (Website URL).
