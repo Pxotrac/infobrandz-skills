@@ -38,13 +38,13 @@ Run searches in varied batches. Do not repeat the same query twice.
 Rotate across: industry terms, white paper synonyms, year, region, company size signals.
 
 Example search patterns to rotate through:
-- "[industry] company white paper download 2025"
-- "[industry] B2B SaaS research report gated PDF 2024"
+- "[industry] company white paper download 2026"
+- "[industry] B2B SaaS research report gated PDF 2026"
 - "[industry] "resources" OR "white papers" site:*.com"
 - "[vertical] tech company whitepaper library"
-- "fintech OR healthtech OR cybersecurity white paper published 2025"
-- "B2B SaaS "download our white paper" 2025"
-- "[industry] benchmark report download 2024 2025"
+- "fintech OR healthtech OR cybersecurity white paper published 2026"
+- "B2B SaaS "download our white paper" 2026"
+- "[industry] benchmark report download 2025 2026"
 
 Industries to rotate through: B2B SaaS, AI/ML, Fintech, Healthtech,
 Cybersecurity, HR Tech, RegTech, LegalTech, DevTools, Supply Chain,
