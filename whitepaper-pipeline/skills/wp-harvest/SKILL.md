@@ -65,11 +65,19 @@ If the company already exists in either tab — skip it, do not write.
 Do not batch. Write each company as soon as you identify it.
 Do not wait until you have several.
 
-Write to the next empty row in the Staging tab:
-1. Click the Name Box (top-left cell reference box)
-2. Type the next empty row's cell A address (e.g. A2) and press Enter
-3. Type Company Name → Tab → Website URL → Tab → web-search → Enter
-4. Confirm the row landed in the correct columns before moving on
+Do NOT use the Tab key to move between columns. Tab does not work reliably
+here and causes all data to pile into a single cell (column A). Instead,
+write each field to its EXACT cell address using the Name Box, one cell
+at a time.
+
+For a company going into the next empty row N of the Staging tab:
+- Name Box → type A{N} → Enter → type Company Name → Enter
+- Name Box → type B{N} → Enter → type Website URL → Enter
+- Name Box → type C{N} → Enter → type web-search → Enter
+
+Always one cell at a time via the Name Box. Never use Tab.
+After writing, click cell B{N} and confirm it shows the URL, not empty.
+If B{N} is empty, the write failed — retry that row.
 
 ## TIMING
 - Wait 3–5 seconds between web searches
