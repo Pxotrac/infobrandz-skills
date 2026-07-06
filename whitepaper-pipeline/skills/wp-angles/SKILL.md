@@ -11,8 +11,8 @@ Update Column R to "Angle ready".
 This triggers n8n to send the row to RocketReach for email finding.
 
 ## SHEET
-URL: https://docs.google.com/spreadsheets/d/12SapJRIxDn0HKhZyWWSO3qZgmwZvGiWHmQ7nsy2jpb8/
-Tab: Whitepaper (Master tab — first tab)
+URL: https://docs.google.com/spreadsheets/1vyQMI4k_rS3zT5nq29hfIHNu6LDN1eNoW9bPzMfBNrI/
+Tab: Whitepaper tab (Master)
 
 Read columns:
 A — Company Name
