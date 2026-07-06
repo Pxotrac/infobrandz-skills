@@ -11,8 +11,8 @@ Stop at 100 names or when the user says stop.
 When done, write "HARVEST COMPLETE" to cell A1 of the Staging tab to trigger n8n.
 
 ## SHEET
-URL: https://docs.google.com/spreadsheets/d/12SapJRIxDn0HKhZyWWSO3qZgmwZvGiWHmQ7nsy2jpb8/
-Tab: Staging
+URL: https://docs.google.com/spreadsheets/d/1vyQMI4k_rS3zT5nq29hfIHNu6LDN1eNoW9bPzMfBNrI/
+Tab:  Staging tab
 
 Staging tab columns:
 A — Company Name
